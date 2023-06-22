@@ -1,0 +1,64 @@
+
+
+li {
+    font-size:14px ;
+    font-style: italic;
+    font-weight: normal;
+    }
+    
+body {
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+.common {
+    border: 2px solid white;
+    position: absolute;
+    }
+        
+.header {
+        top: 5px;
+        left: 10px;
+        right: 10px;
+        height: 160px;
+        z-index: 2;
+        border-bottom: solid 1px #555555;
+    }
+        
+.mainbody {
+            top: 170px;
+            left: 10px;
+            right: 114px;
+            bottom: 39px;
+            padding-right: 5px;
+        }
+        
+.rightmenu {
+            top: 170px;
+            right: 10px;
+            width: 700px;
+            bottom: 5px;
+            border-left: solid 1px #555555;
+            padding-left: 5px;
+        }
+        
+.footer {
+            bottom: 5px;
+            left: 5px;
+            right: 5px;
+            height: 25px;
+            font-size: 8px;
+            color: #999999;
+            text-align: center;
+            padding-top: 15px;
+            position: fixed;
+        }
+        
+.subheader {
+            float: right;
+        }
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+    }
